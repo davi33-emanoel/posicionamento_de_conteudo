@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item{
+    display:flex;
+    justify-content:space-around;
+    background-color:lightgray;
+    font-size:25px;
+    padding:5px;
+    box-shadow: 0 0 6px rgba(0,0,0);
+}
+.botao{
+    font-size:25px;
+    font-family: inherit;
+    padding:8px;
+    background-color:darkgray;
+    border:none;
+    cursor:pointer;
+    box-shadow: 0 0 6px rgba(0,0,0);
+}
+.full{
+    width:100%;
+}
+.left{
+    align-self: flex-start;
+}

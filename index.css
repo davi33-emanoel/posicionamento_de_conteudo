@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+.caixa{
+    display:flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.box{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    line-height:200px
+}
+.clr-vermelha{
+background-color: red;
+}
+.clr-azul{
+    background-color:blue;
+}
+.clr-amarela{
+    background-color:yellow;
+}
+.clr-verde{
+    background-color:green;
+}
